@@ -80,3 +80,4 @@ func SetupRoutes(app *fiber.App, r *Repository) {
 	api.Post("/update-book", r.UpdateBook)
 	api.Get("/test", r.Ttest)
 }
+
